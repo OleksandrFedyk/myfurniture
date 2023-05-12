@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Your Furniture</title>
+    <link rel="stylesheet" href="css/shopKart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_navbar">
+                <a href="index.html" class="header_navbar__logo"><img src="img/Logo.svg" alt="Logo"></a>
+                <input type="text" class="header_navbar__search" placeholder="Search..">
+                <div class="header_navbar__icons">
+                    <a href="#" class="header_navbar__icons-menu"><img src="img/list 1.svg" alt="Menu buttone"></a>
+                    <a href="account.html" style="margin-left: 36px;" class="header_navbar__icons-account"><img src="img/account 1.svg" alt="Account"></a>
+                    <a href="shopKart.html" style="margin-left: 36px;" class="header_navbar__icons-shopingKart"><img src="img/shopping-cart 1.svg" alt="Shoping cart"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="shopKart">
+        <div class="container">
+            <h1 class="shopKart_title">
+                Shoping Cart
+            </h1>
+            <div class="shopKart_content">
+                <div class="shopKart_content__items">
+                    <p class="shopKart_content__items-title bigtitle">Products</p>
+                    <ol>
+                        <li class="shopKart_content__item item">
+                            <p class="shopKart_content__item-title">Italian Sofa</p>
+                            <p class="shopKart_content__item-price">150$</p>
+                        </li>
+                    </ol>
+                </div>
+                <hr>
+                <div class="shopKart_content__buyMenu">
+                    <div class="shopKart_kontent__info">
+                        <p class="shopKart_kontent__info-title bigtitle">
+                            Enter your destination to get a shipping estimate.
+                        </p>
+                        <div class="shopKart_content__info-country microsection">
+                            <p class="hopKart_content__info-country--title infotitle">
+                                Country
+                            </p>
+                            <input class="shopKart_input" type="text">
+                        </div>
+                        <div class="shopKart_content__info-state microsection">
+                            <p class="hopKart_content__info-state--title  infotitle">
+                                State/Province
+                            </p>
+                            <input class="shopKart_input" type="text">
+                        </div>
+                        <div class="shopKart_content__info-postal microsection">
+                            <p class="hopKart_content__info-postalcode--title infotitle">
+                                Zip/Postal Code
+                            </p>
+                            <input class="shopKart_input" type="text">
+                        </div>
+                        <div class="shopKart_content__info-phone microsection">
+                            <p class="hopKart_content__info-phone--title infotitle">
+                                Phone
+                            </p>
+                            <input class="shopKart_input" type="text">
+                        </div>
+                    </div>
+                    <hr class="microsection">
+                    <div class="shopkart_kontent__buy">
+                        <div class="shopKart_kontent__buy-subtotal  microsection item">
+                            <p class="shopKart_kontent__buy-subtotal--title totaltitle">Subtotal</p>
+                            <p class="shopKart_kontent__buy-subtotal--money">150$</p>
+                        </div>
+                        <div class="shopKart_kontent__buy-tax microsection item">
+                            <p class="shopKart_kontent__buy-tax--title totaltitle">Tax</p>
+                            <p class="shopKart_kontent__buy-tax--money">10$</p>
+                        </div>
+                        <hr class="microsection">
+                        <div class="shopKart_kontent__buy-total microsection item">
+                            <p class="shopKart_kontent__buy-totla--title totaltitle">Order Total</p>
+                            <p class="shopKart_kontent__buy-total--money">160$</p>
+                        </div>
+                        <hr class="microsection">
+                        <button class="shopKart_btn">Buy</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
